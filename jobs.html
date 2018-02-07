@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="css/javajam.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>JavaJam Coffee House</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Jobs at JavaJam</h2>
+        <p>
+          Want to work at JavaJam?  Fill out the form below to start your application.
+          Required fields are marked with an asterisk *.
+        </p>
+        <form action="http://webdevbasics.net/scripts/javajam.php" method="post">
+          <label for="myName">*Name:</label>
+          <input required type="text" name="myName" id="myName">
+          
+          <label for="myEmail">*Email:</label>
+          <input required type="email" name="myEmail" id="myEmail">
+          
+          <label for="startDate">Start Date</label>
+          <input type="date" name="startDate" id="startDate">
+          
+          <label for="myExperience">*Experience:</label>
+          <textarea required id="myExperience" name="myExperience" rows="2" cols="20"></textarea>
+          
+          <input type="submit" value="Apply Now">
+        </form>
+      </main>
+      <footer>
+        <small>Copyright &copy; 2016 JavaJam Coffee House</small><br>
+        <small><a href="mailto:zachary@schullo.com">zachary@schullo.com</a></small>
+      </footer>
+    </div>
+  </body>
+</html>
